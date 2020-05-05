@@ -1,0 +1,25 @@
+package external;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
+import com.monkeylearn.ExtraParam;
+import com.monkeylearn.MonkeyLearn;
+import com.monkeylearn.MonkeyLearnException;
+import com.monkeylearn.MonkeyLearnResponse;
+
+
+public class MonkeyLearnClient {
+
+    public static List<List<String>> extractKeywords(String[] text) {
+        MonkeyLearn ml = new MonkeyLearn("46dbeb6501d02ddb355c03920dcc7a8583608781");
+        String modelId = "ex_YCya9nrn";
+        String[] data = {"Elon Musk has shared a photo of the spacesuit designed by SpaceX. This is the second image shared of the new design and the first to feature the spacesuit’s full-body look."};
+        MonkeyLearnResponse res = ml.extractors.extract(modelId, data);
+        System.out.println( res.arrayResult );
+    }
+
+}

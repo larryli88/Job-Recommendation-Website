@@ -1,0 +1,39 @@
+package external;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
+import com.monkeylearn.ExtraParam;
+import com.monkeylearn.MonkeyLearn;
+import com.monkeylearn.MonkeyLearnException;
+import com.monkeylearn.MonkeyLearnResponse;
+
+
+public class MonkeyLearnClient {
+
+    public static List<List<String>> extractKeywords(String[] text) {
+    	if(text == null || text.length == 0) {
+    		return new ArrayList<>();
+    	}
+        MonkeyLearn ml = new MonkeyLearn("46dbeb6501d02ddb355c03920dcc7a8583608781");
+        String modelId = "ex_YCya9nrn";
+        ExtraParam[] extraParams = {new ExtraParam("max_keywords", "3")};
+        MonkeyLearnResponse res;
+        
+        try {
+        	res = ml.extractors.extract(modelId,  text, extraParams);
+        	JSONArray resultArray = res.arrayResult;
+        } catch (MonkeyLearnException e) {
+        	e.printStackTrace();
+        }
+        
+        return null;
+    }
+    private static List<List<String>> getKeywordsJSONArray resultArray) {
+    	
+    }
+
+}
