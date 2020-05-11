@@ -2097,3 +2097,11 @@ java.io.FileNotFoundException: /Users/Larry/project_class/.metadata/.plugins/org
 2020-05-10 00:40:09,831 [Worker-262: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Larry/job_recommendation/jupiter/src/main/resources
 2020-05-10 00:40:09,832 [Worker-262: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-05-10 00:40:09,832 [Worker-262: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Larry/job_recommendation/jupiter/src/test/resources
+2020-05-10 01:02:35,790 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 01:02:35,790 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Larry/job_recommendation/jupiter/src/main/resources
+2020-05-10 01:02:35,792 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 01:02:35,792 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Larry/job_recommendation/jupiter/src/test/resources
+2020-05-11 06:49:46,252 [Worker-291: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-11 06:49:46,253 [Worker-291: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Larry/job_recommendation/jupiter/src/main/resources
+2020-05-11 06:49:46,254 [Worker-291: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-11 06:49:46,254 [Worker-291: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Larry/job_recommendation/jupiter/src/test/resources
